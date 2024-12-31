@@ -3,7 +3,7 @@
 
 *This repository is a work in progress.*
 
-This repository contains code and pre-trained model checkpoints for AbMAP, a Protein Language Model (PLM) customized for antibodies as featured in **Learning the Language of Antibody Hypervariability** ([_Singh, Im et al. 2023_](https://www.biorxiv.org/content/10.1101/2023.04.26.538476)). AbMAP leverages information from foundational PLMs as well as antibody structure and function, offering a multi-functional tool useful for predicting structure, functional properties, and analyzing B-cell repertoires.
+This repository contains code and pre-trained model checkpoints for AbMAP, a Protein Language Model (PLM) customized for antibodies as featured in **Learning the Language of Antibody Hypervariability** ([_Singh, Im et al. 2024_](https://www.pnas.org/doi/10.1073/pnas.2418918121)). AbMAP leverages information from foundational PLMs as well as antibody structure and function, offering a multi-functional tool useful for predicting structure, functional properties, and analyzing B-cell repertoires.
 
 ### Installation
 AbMAP relies on ANARCI to assign IMGT labels to antibody sequences. Please see the [ANARCI](https://github.com/oxpig/ANARCI/blob/master/INSTALL) repo or run the following in a new conda environment: 
@@ -37,5 +37,5 @@ Given fasta sequences and a pre-trained AbMAP model, generate their AbMAP embedd
 -->
 
 ### Reference
-Please provide feedback on the issues page or by opening a pull request. If AbMAP is useful in your work, please consider citing our [bioRxiv preprint](https://www.biorxiv.org/content/10.1101/2023.04.26.538476). 
+Please provide feedback on the issues page or by opening a pull request. If AbMAP is useful in your work, please consider citing our [PNAS Article](https://www.pnas.org/doi/10.1073/pnas.2418918121). 
 
