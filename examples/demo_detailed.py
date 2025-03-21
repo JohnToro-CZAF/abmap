@@ -1,6 +1,6 @@
 import os, sys
 
-from abmap.plm_embed import ProteinEmbedding
+from abmap.abmap_augment import ProteinEmbedding
 from abmap.model import AbMAPAttn
 from abmap.plm_embed import reload_models_to_device
 import torch
